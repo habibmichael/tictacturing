@@ -2095,7 +2095,7 @@ fb-watchman@^1.8.0, fb-watchman@^1.9.0:
   dependencies:
     bser "1.0.2"
 
-fbjs@^0.8.1, fbjs@^0.8.4, fbjs@^0.8.5, fbjs@^0.8.6, fbjs@^0.8.7, fbjs@^0.8.8, fbjs@^0.8.9:
+fbjs@^0.8.1, fbjs@^0.8.12, fbjs@^0.8.4, fbjs@^0.8.5, fbjs@^0.8.6, fbjs@^0.8.7, fbjs@^0.8.8, fbjs@^0.8.9:
   version "0.8.12"
   resolved "https://registry.yarnpkg.com/fbjs/-/fbjs-0.8.12.tgz#10b5d92f76d45575fd63a217d4ea02bea2f8ed04"
   dependencies:
@@ -3253,6 +3253,10 @@ klaw@^1.0.0:
   optionalDependencies:
     graceful-fs "^4.1.9"
 
+konva@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/konva/-/konva-1.5.0.tgz#12581faced9fa98062ef7bf42b7af7d587d6b003"
+
 lazy-cache@^1.0.3:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/lazy-cache/-/lazy-cache-1.0.4.tgz#a1d78fc3a50474cb80845d3b3b6e1da49a446e8e"
@@ -3757,6 +3761,10 @@ oauth-sign@~0.8.1:
 object-assign@4.1.0, object-assign@^4.0.1, object-assign@^4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.0.tgz#7a3b3d0e98063d43f4c03f2e8ae6cd51a86883a0"
+
+object-assign@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
 
 object.omit@^2.0.0:
   version "2.0.1"
@@ -4402,6 +4410,13 @@ react-event-listener@^0.4.5:
     fbjs "^0.8.4"
     prop-types "^15.5.4"
     warning "^3.0.0"
+
+react-konva@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/react-konva/-/react-konva-1.1.2.tgz#0d6feebf288530aba21f4419e213f1cb1cabb623"
+  dependencies:
+    fbjs "^0.8.12"
+    object-assign "^4.1.1"
 
 react-router@^3.0.2:
   version "3.0.4"
